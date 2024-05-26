@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  .row {
+    display: flex;
+    .cell {
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+    }
+    .black {
+      background-color: #000;
+    }
+    .white {
+      background-color: #fff;
+    }
+    .highlight {
+      background-color: #406cbf;
+    }
+    .selected {
+      background-color: #40c4ff;
+    }
+    
+  }
+}
+
+
+
